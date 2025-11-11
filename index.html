@@ -24,15 +24,15 @@
     </style>
   </head>
   <body>
-    <h1>Timed Quiz - 30 Minutes</h1>
-    <p id="timer">30:00</p>
+    <h1>Timed Quiz - 20 Minutes</h1>
+    <p id="timer">20:00</p>
 
     <!-- Embed your Google Form -->
     <iframe id="formframe" src="https://docs.google.com/forms/d/e/1FAIpQLSdX-Yk7nDNlY_JwkSka2VRnCtIHyvEzXkEGyY2wW-Wf8Td-7w/viewform?usp=dialog" frameborder="0"></iframe>
 
     <script>
-      // Total time in seconds (30 minutes = 1800 seconds)
-      let time = 30 * 60;
+      // Total time in seconds (20 minutes = 1200 seconds)
+      let time = 20 * 60;
       const timerElement = document.getElementById('timer');
 
       const countdown = setInterval(() => {
